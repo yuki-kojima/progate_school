@@ -1,0 +1,113 @@
+/* 既にstylesheet.cssで指定しているCSSに注意しながら進めていきましょう */
+
+/* 共通のレイアウト */
+
+
+
+/* タブレット向けレイアウト */
+@media all and (max-width: 1000px) {
+  .features-box {
+    width: 100%;
+  }
+  .price-column {
+    width: 45%;
+    margin-top: 40px;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+.contact-form {
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+input[type="text"], textarea {
+  width: 100%;
+}
+.contact-about {
+  width: 100%;
+  margin-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.top-description h2 {
+  font-size: 36px;
+}
+.section-title  h3 {
+  font-size: 28px;
+}
+.message-section h4 {
+  font-size: 19px;
+}
+}
+/* モバイル向けレイアウト */
+@media all and (max-width: 670px) {
+.languages-box {
+  width: 100%;
+}
+.languages-box-wrapper {
+  height: 1000px;
+}
+
+.header-menu-right {
+  display: none;
+}
+
+.sp-menu {
+  display: block;
+}
+#features img {
+  width: 300px;
+}
+
+.contact-form, .contact-about {
+  padding: 0 0 ;
+}
+
+.contact-about p {
+  line-height: 20px;
+}
+.message-section-inner {
+  padding: 90px 0;
+}
+
+.message-section h4 {
+  text-align: left;
+  font-size: 17px;
+  line-height: 35px;
+}
+
+.price-column {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.top-description h2 {
+  font-size: 28px;
+}
+
+.top-description p {
+  font-size: 13px;
+}
+
+.btn {
+  display: block;
+  margin-left: 0;
+  margin-right: 0;
+}
+.btn-contact {
+  width: 100%;
+}
+
+.section-title  h3 {
+  font-size: 24px;
+}
+
+.features-box {
+  font-size: 13px;
+}
+
+.features-box h5 {
+  font-size: 16px;
+}
+}
